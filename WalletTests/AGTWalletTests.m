@@ -120,4 +120,14 @@
     XCTAssertNotEqual(count,nsi2,@"count of dollars dont must be 4");
 
 }
+
+-(void) testCurrenciesWithoutDuplicates
+{
+    AGTWallet *wallet = [[AGTWallet alloc] initWithAmount:40 currency:@"USD"];
+    [wallet addMoney:[AGTMoney dollarWithAmount:20]];
+    [wallet addMoney:[AGTMoney dollarWithAmount:20]];
+    [wallet addMoney:[AGTMoney euroWithAmount:20]];
+    XCTAssertEqual(wallet.diferentCurrencies.count,2,@"number of currencies must be two");
+    
+}
 @end

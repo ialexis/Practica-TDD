@@ -7,14 +7,12 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "AGTSimpleViewController.h"
+
 #import "AGTWalletTableViewController.h"
 #import "AGTWallet.h"
 
 @interface AGTControllerTests : XCTestCase
-@property (nonatomic, strong) AGTSimpleViewController *simpleVC;
-@property (nonatomic, strong) UIButton *button;
-@property (nonatomic, strong) UILabel *label;
+
 
 @property (nonatomic, strong) AGTWalletTableViewController *walletVC;
 @property (nonatomic, strong) AGTWallet *wallet;
@@ -25,15 +23,9 @@
 - (void)setUp
 {
     [super setUp];
-    // Creamos el entorno de laboratorio
- //   self.simpleVC = [[AGTSimpleViewController alloc] initWithNibName:nil bundle:nil];
- //   self.button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
- //   [self.button setTitle:@"Hola" forState:UIControlStateNormal];
- //   self.label = [[UILabel alloc] initWithFrame:CGRectZero];
- //   self.simpleVC.displayLabel = self.label;
-    
+    // se crea el entorno de laboratorio
     self.wallet = [[AGTWallet alloc] initWithAmount:1 currency:@"USD"];
-    [self.wallet plus:[AGTMoney euroWithAmount:1]];
+    [self.wallet addMoney:[AGTMoney euroWithAmount:1]];
     
     self.walletVC = [[AGTWalletTableViewController alloc] initWithModel:self.wallet];
 }
@@ -41,24 +33,30 @@
 - (void)tearDown
 {
     [super tearDown];
-    // Lo destruimos
-  //  self.simpleVC = nil;
-   // self.button = nil;
-   // self.label = nil;
+
 }
 
 
--(void) testThatTablehasOneSection{
+-(void) testThatTablehasOneSectionPorCurrency{
     
     NSInteger sections = [self.walletVC numberOfSectionsInTableView:nil];
     
-    XCTAssertEqual(sections, 1, @"There can only be one!");
+    XCTAssertEqual(sections,
+                   3,
+                   @"Number of section is the number of diferente Currencies (2-USD and EUR) plus 1 (the total)");
+    
+   // XCTAssertEqual(sections, 1, @"There can only be one!");
     
 }
 
--(void) testThatNumberOfCellsIsNumberOfMoneysPlusOne{
+-(void) testThatNumberOfCellsIsNumberOfMoneysOfOneCurrencyPlusOne{
     
-    XCTAssertEqual(self.wallet.count + 1,
+    
+    [self.wallet addMoney:[AGTMoney dollarWithAmount:2]];
+    
+    
+    //I have 2 Moneys with Dollars, First in the SetUp we add one and now we add another one money with Dollars. So the number of cells must be 3 (number of moneys plus 1 (The total)
+    XCTAssertEqual(3,
                    [self.walletVC tableView:nil numberOfRowsInSection:0],
                    @"Number of cells is the number of moneys plus 1 (the total)");
     

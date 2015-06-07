@@ -21,6 +21,9 @@
         _moneys = [NSMutableArray array];
         [_moneys addObject: money];
         
+        _diferentCurrencies = [NSMutableOrderedSet new];
+        [_diferentCurrencies addObject:money.currency];
+        
     }
     return self;
 }
@@ -94,14 +97,19 @@
 -(void) addMoney:(AGTMoney *)money
 {
     [self.moneys addObject:money];
+    [self.diferentCurrencies addObject:money.currency];
 }
 
 -(void)takeMoney:(AGTMoney *)money
 {
     
     AGTMoney *newMoney = [[AGTMoney alloc]initWithAmount:(0 - [money.amount integerValue]) currency:money.currency] ;
-    [self.moneys addObject:newMoney];
+    
+  //  [self.moneys addObject:newMoney];
+    
+    [self addMoney:newMoney];
 }
+
 
 
 

@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Wallet/AGTWallet.m"
-            timestampString = "455364248.555708"
+            timestampString = "455387776.696916"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "-getMoneyWithCurrency:"
             landmarkType = "5">
          </BreakpointContent>
@@ -48,6 +48,146 @@
             startingLineNumber = "115"
             endingLineNumber = "115"
             landmarkName = "-testCountOfDollars"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalletTests/AGTWalletTests.m"
+            timestampString = "455387798.516901"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "-testCurrenciesWithoutDuplicates"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalletTests/AGTControllerTests.m"
+            timestampString = "455389243.479978"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-testThatNumberOfCellsIsNumberOfMoneysOfOneCurrencyPlusOne"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AGTControllerTests testThatNumberOfCellsIsNumberOfMoneysOfOneCurrencyPlusOne]"
+                  moduleName = "WalletTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ivan/OneDrive/Proyectos/Master%20Keep%20Coding/8.-%20TDD/Practica/WalletTests/AGTControllerTests.m"
+                  timestampString = "455389057.521574"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AGTControllerTests testThatNumberOfCellsIsNumberOfMoneysOfOneCurrencyPlusOne]"
+                  moduleName = "WalletTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ivan/OneDrive/Proyectos/Master%20Keep%20Coding/8.-%20TDD/Practica/WalletTests/AGTControllerTests.m"
+                  timestampString = "455389057.521894"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "159">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AGTControllerTests testThatNumberOfCellsIsNumberOfMoneysOfOneCurrencyPlusOne]"
+                  moduleName = "WalletTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ivan/OneDrive/Proyectos/Master%20Keep%20Coding/8.-%20TDD/Practica/WalletTests/AGTControllerTests.m"
+                  timestampString = "455389057.522186"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "173">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AGTControllerTests testThatNumberOfCellsIsNumberOfMoneysOfOneCurrencyPlusOne]"
+                  moduleName = "WalletTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ivan/OneDrive/Proyectos/Master%20Keep%20Coding/8.-%20TDD/Practica/WalletTests/AGTControllerTests.m"
+                  timestampString = "455389057.522464"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "849">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AGTControllerTests testThatNumberOfCellsIsNumberOfMoneysOfOneCurrencyPlusOne]"
+                  moduleName = "WalletTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ivan/OneDrive/Proyectos/Master%20Keep%20Coding/8.-%20TDD/Practica/WalletTests/AGTControllerTests.m"
+                  timestampString = "455389057.522744"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "875">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[AGTControllerTests testThatNumberOfCellsIsNumberOfMoneysOfOneCurrencyPlusOne]"
+                  moduleName = "WalletTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ivan/OneDrive/Proyectos/Master%20Keep%20Coding/8.-%20TDD/Practica/WalletTests/AGTControllerTests.m"
+                  timestampString = "455389057.523021"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "997">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalletTests/AGTControllerTests.m"
+            timestampString = "455389027.022188"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-testThatTablehasOneSectionPorCurrency"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

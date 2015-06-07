@@ -10,6 +10,7 @@
 #import "AGTMoney.h"
 
 @interface AGTWallet : NSObject<AGTMoney>
+@property (strong,nonatomic) NSMutableOrderedSet * diferentCurrencies;
 
 -(AGTMoney *) getMoneyWithCurrency:(NSString *)currency;
 -(void) addMoney:(AGTMoney *)money;
