@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CC41CC31B24A55D00588EE4 /* AGTWalletTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC41CC21B24A55D00588EE4 /* AGTWalletTableViewController.m */; };
+		2CC41CC61B24A58800588EE4 /* AGTControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC41CC51B24A58800588EE4 /* AGTControllerTests.m */; };
+		ED119823196F10020029D581 /* AGTBrokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED119822196F10020029D581 /* AGTBrokerTests.m */; };
+		ED119826196F114B0029D581 /* AGTBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = ED119825196F114B0029D581 /* AGTBroker.m */; };
+		ED119827196F114B0029D581 /* AGTBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = ED119825196F114B0029D581 /* AGTBroker.m */; };
+		ED119829196F26580029D581 /* AGTWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED119828196F26580029D581 /* AGTWalletTests.m */; };
+		ED11982C196F28260029D581 /* AGTWallet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED11982B196F28260029D581 /* AGTWallet.m */; };
+		ED11982D196F28260029D581 /* AGTWallet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED11982B196F28260029D581 /* AGTWallet.m */; };
+		EDF75AFB196AE6D400EE535A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF75AFA196AE6D400EE535A /* Foundation.framework */; };
+		EDF75AFD196AE6D400EE535A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF75AFC196AE6D400EE535A /* CoreGraphics.framework */; };
+		EDF75AFF196AE6D400EE535A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF75AFE196AE6D400EE535A /* UIKit.framework */; };
+		EDF75B05196AE6D400EE535A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDF75B03196AE6D400EE535A /* InfoPlist.strings */; };
+		EDF75B07196AE6D500EE535A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF75B06196AE6D500EE535A /* main.m */; };
+		EDF75B0B196AE6D500EE535A /* AGTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF75B0A196AE6D500EE535A /* AGTAppDelegate.m */; };
+		EDF75B0D196AE6D500EE535A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF75B0C196AE6D500EE535A /* Images.xcassets */; };
+		EDF75B14196AE6D500EE535A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF75B13196AE6D500EE535A /* XCTest.framework */; };
+		EDF75B15196AE6D500EE535A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF75AFA196AE6D400EE535A /* Foundation.framework */; };
+		EDF75B16196AE6D500EE535A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF75AFE196AE6D400EE535A /* UIKit.framework */; };
+		EDF75B1E196AE6D500EE535A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDF75B1C196AE6D500EE535A /* InfoPlist.strings */; };
+		EDF75B44196B3C0600EE535A /* AGTMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF75B43196B3C0600EE535A /* AGTMoney.m */; };
+		EDF75B48196B3ECA00EE535A /* NSObject+GNUStepAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF75B47196B3ECA00EE535A /* NSObject+GNUStepAddons.m */; };
+		EDF75B4A196B40D900EE535A /* AGTMoneyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF75B49196B40D900EE535A /* AGTMoneyTest.m */; };
+		EDF75B4B196B414400EE535A /* AGTMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF75B43196B3C0600EE535A /* AGTMoney.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF75B17196AE6D500EE535A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF75AEF196AE6D400EE535A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF75AF6196AE6D400EE535A;
+			remoteInfo = Wallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CC41CC11B24A55D00588EE4 /* AGTWalletTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTWalletTableViewController.h; sourceTree = "<group>"; };
+		2CC41CC21B24A55D00588EE4 /* AGTWalletTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTWalletTableViewController.m; sourceTree = "<group>"; };
+		2CC41CC51B24A58800588EE4 /* AGTControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTControllerTests.m; sourceTree = "<group>"; };
+		ED119822196F10020029D581 /* AGTBrokerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTBrokerTests.m; sourceTree = "<group>"; };
+		ED119824196F114B0029D581 /* AGTBroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTBroker.h; sourceTree = "<group>"; };
+		ED119825196F114B0029D581 /* AGTBroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTBroker.m; sourceTree = "<group>"; };
+		ED119828196F26580029D581 /* AGTWalletTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTWalletTests.m; sourceTree = "<group>"; };
+		ED11982A196F28260029D581 /* AGTWallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTWallet.h; sourceTree = "<group>"; };
+		ED11982B196F28260029D581 /* AGTWallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTWallet.m; sourceTree = "<group>"; };
+		EDF75AF7196AE6D400EE535A /* Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF75AFA196AE6D400EE535A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDF75AFC196AE6D400EE535A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDF75AFE196AE6D400EE535A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDF75B02196AE6D400EE535A /* Wallet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wallet-Info.plist"; sourceTree = "<group>"; };
+		EDF75B04196AE6D400EE535A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDF75B06196AE6D500EE535A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDF75B08196AE6D500EE535A /* Wallet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wallet-Prefix.pch"; sourceTree = "<group>"; };
+		EDF75B09196AE6D500EE535A /* AGTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGTAppDelegate.h; sourceTree = "<group>"; };
+		EDF75B0A196AE6D500EE535A /* AGTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTAppDelegate.m; sourceTree = "<group>"; };
+		EDF75B0C196AE6D500EE535A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDF75B12196AE6D500EE535A /* WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF75B13196AE6D500EE535A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EDF75B1B196AE6D500EE535A /* WalletTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WalletTests-Info.plist"; sourceTree = "<group>"; };
+		EDF75B1D196AE6D500EE535A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDF75B42196B3C0600EE535A /* AGTMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTMoney.h; sourceTree = "<group>"; };
+		EDF75B43196B3C0600EE535A /* AGTMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTMoney.m; sourceTree = "<group>"; };
+		EDF75B46196B3ECA00EE535A /* NSObject+GNUStepAddons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GNUStepAddons.h"; sourceTree = "<group>"; };
+		EDF75B47196B3ECA00EE535A /* NSObject+GNUStepAddons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GNUStepAddons.m"; sourceTree = "<group>"; };
+		EDF75B49196B40D900EE535A /* AGTMoneyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTMoneyTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF75AF4196AE6D400EE535A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF75AFD196AE6D400EE535A /* CoreGraphics.framework in Frameworks */,
+				EDF75AFF196AE6D400EE535A /* UIKit.framework in Frameworks */,
+				EDF75AFB196AE6D400EE535A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF75B0F196AE6D500EE535A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF75B14196AE6D500EE535A /* XCTest.framework in Frameworks */,
+				EDF75B16196AE6D500EE535A /* UIKit.framework in Frameworks */,
+				EDF75B15196AE6D500EE535A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CC41CC41B24A56500588EE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CC41CC11B24A55D00588EE4 /* AGTWalletTableViewController.h */,
+				2CC41CC21B24A55D00588EE4 /* AGTWalletTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2CC41CC71B24A58C00588EE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CC41CC51B24A58800588EE4 /* AGTControllerTests.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EDF75AEE196AE6D400EE535A = {
+			isa = PBXGroup;
+			children = (
+				EDF75B00196AE6D400EE535A /* Wallet */,
+				EDF75B19196AE6D500EE535A /* WalletTests */,
+				EDF75AF9196AE6D400EE535A /* Frameworks */,
+				EDF75AF8196AE6D400EE535A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF75AF8196AE6D400EE535A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF75AF7196AE6D400EE535A /* Wallet.app */,
+				EDF75B12196AE6D500EE535A /* WalletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF75AF9196AE6D400EE535A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDF75AFA196AE6D400EE535A /* Foundation.framework */,
+				EDF75AFC196AE6D400EE535A /* CoreGraphics.framework */,
+				EDF75AFE196AE6D400EE535A /* UIKit.framework */,
+				EDF75B13196AE6D500EE535A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDF75B00196AE6D400EE535A /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				EDF75B45196B3EA800EE535A /* Categories */,
+				2CC41CC41B24A56500588EE4 /* Controllers */,
+				EDF75B34196B286100EE535A /* Models */,
+				EDF75B09196AE6D500EE535A /* AGTAppDelegate.h */,
+				EDF75B0A196AE6D500EE535A /* AGTAppDelegate.m */,
+				EDF75B0C196AE6D500EE535A /* Images.xcassets */,
+				EDF75B01196AE6D400EE535A /* Supporting Files */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		EDF75B01196AE6D400EE535A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF75B02196AE6D400EE535A /* Wallet-Info.plist */,
+				EDF75B03196AE6D400EE535A /* InfoPlist.strings */,
+				EDF75B06196AE6D500EE535A /* main.m */,
+				EDF75B08196AE6D500EE535A /* Wallet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDF75B19196AE6D500EE535A /* WalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CC41CC71B24A58C00588EE4 /* Controllers */,
+				EDF75B31196B26F700EE535A /* Models */,
+				EDF75B1A196AE6D500EE535A /* Supporting Files */,
+			);
+			path = WalletTests;
+			sourceTree = "<group>";
+		};
+		EDF75B1A196AE6D500EE535A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF75B1B196AE6D500EE535A /* WalletTests-Info.plist */,
+				EDF75B1C196AE6D500EE535A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDF75B31196B26F700EE535A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDF75B49196B40D900EE535A /* AGTMoneyTest.m */,
+				ED119822196F10020029D581 /* AGTBrokerTests.m */,
+				ED119828196F26580029D581 /* AGTWalletTests.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EDF75B34196B286100EE535A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDF75B42196B3C0600EE535A /* AGTMoney.h */,
+				EDF75B43196B3C0600EE535A /* AGTMoney.m */,
+				ED119824196F114B0029D581 /* AGTBroker.h */,
+				ED119825196F114B0029D581 /* AGTBroker.m */,
+				ED11982A196F28260029D581 /* AGTWallet.h */,
+				ED11982B196F28260029D581 /* AGTWallet.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EDF75B45196B3EA800EE535A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EDF75B46196B3ECA00EE535A /* NSObject+GNUStepAddons.h */,
+				EDF75B47196B3ECA00EE535A /* NSObject+GNUStepAddons.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF75AF6196AE6D400EE535A /* Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF75B23196AE6D500EE535A /* Build configuration list for PBXNativeTarget "Wallet" */;
+			buildPhases = (
+				EDF75AF3196AE6D400EE535A /* Sources */,
+				EDF75AF4196AE6D400EE535A /* Frameworks */,
+				EDF75AF5196AE6D400EE535A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wallet;
+			productName = Wallet;
+			productReference = EDF75AF7196AE6D400EE535A /* Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDF75B11196AE6D500EE535A /* WalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF75B26196AE6D500EE535A /* Build configuration list for PBXNativeTarget "WalletTests" */;
+			buildPhases = (
+				EDF75B0E196AE6D500EE535A /* Sources */,
+				EDF75B0F196AE6D500EE535A /* Frameworks */,
+				EDF75B10196AE6D500EE535A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF75B18196AE6D500EE535A /* PBXTargetDependency */,
+			);
+			name = WalletTests;
+			productName = WalletTests;
+			productReference = EDF75B12196AE6D500EE535A /* WalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF75AEF196AE6D400EE535A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AGT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Agbo;
+				TargetAttributes = {
+					EDF75B11196AE6D500EE535A = {
+						TestTargetID = EDF75AF6196AE6D400EE535A;
+					};
+				};
+			};
+			buildConfigurationList = EDF75AF2196AE6D400EE535A /* Build configuration list for PBXProject "Wallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDF75AEE196AE6D400EE535A;
+			productRefGroup = EDF75AF8196AE6D400EE535A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF75AF6196AE6D400EE535A /* Wallet */,
+				EDF75B11196AE6D500EE535A /* WalletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF75AF5196AE6D400EE535A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF75B05196AE6D400EE535A /* InfoPlist.strings in Resources */,
+				EDF75B0D196AE6D500EE535A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF75B10196AE6D500EE535A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF75B1E196AE6D500EE535A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF75AF3196AE6D400EE535A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF75B44196B3C0600EE535A /* AGTMoney.m in Sources */,
+				ED119826196F114B0029D581 /* AGTBroker.m in Sources */,
+				2CC41CC31B24A55D00588EE4 /* AGTWalletTableViewController.m in Sources */,
+				EDF75B07196AE6D500EE535A /* main.m in Sources */,
+				ED11982C196F28260029D581 /* AGTWallet.m in Sources */,
+				EDF75B48196B3ECA00EE535A /* NSObject+GNUStepAddons.m in Sources */,
+				EDF75B0B196AE6D500EE535A /* AGTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF75B0E196AE6D500EE535A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED119823196F10020029D581 /* AGTBrokerTests.m in Sources */,
+				2CC41CC61B24A58800588EE4 /* AGTControllerTests.m in Sources */,
+				ED119829196F26580029D581 /* AGTWalletTests.m in Sources */,
+				EDF75B4A196B40D900EE535A /* AGTMoneyTest.m in Sources */,
+				ED11982D196F28260029D581 /* AGTWallet.m in Sources */,
+				EDF75B4B196B414400EE535A /* AGTMoney.m in Sources */,
+				ED119827196F114B0029D581 /* AGTBroker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF75B18196AE6D500EE535A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF75AF6196AE6D400EE535A /* Wallet */;
+			targetProxy = EDF75B17196AE6D500EE535A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDF75B03196AE6D400EE535A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF75B04196AE6D400EE535A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDF75B1C196AE6D500EE535A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF75B1D196AE6D500EE535A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF75B21196AE6D500EE535A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDF75B22196AE6D500EE535A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF75B24196AE6D500EE535A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wallet/Wallet-Prefix.pch";
+				INFOPLIST_FILE = "Wallet/Wallet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDF75B25196AE6D500EE535A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wallet/Wallet-Prefix.pch";
+				INFOPLIST_FILE = "Wallet/Wallet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EDF75B27196AE6D500EE535A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wallet.app/Wallet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wallet/Wallet-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WalletTests/WalletTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EDF75B28196AE6D500EE535A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wallet.app/Wallet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wallet/Wallet-Prefix.pch";
+				INFOPLIST_FILE = "WalletTests/WalletTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF75AF2196AE6D400EE535A /* Build configuration list for PBXProject "Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF75B21196AE6D500EE535A /* Debug */,
+				EDF75B22196AE6D500EE535A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF75B23196AE6D500EE535A /* Build configuration list for PBXNativeTarget "Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF75B24196AE6D500EE535A /* Debug */,
+				EDF75B25196AE6D500EE535A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF75B26196AE6D500EE535A /* Build configuration list for PBXNativeTarget "WalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF75B27196AE6D500EE535A /* Debug */,
+				EDF75B28196AE6D500EE535A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF75AEF196AE6D400EE535A /* Project object */;
+}
